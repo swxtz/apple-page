@@ -1,3 +1,9 @@
+import { Navbar } from "./components/navbar";
+
 export function App() {
-  return <h1>Teste</h1>;
+  return (
+    <div>
+      <Navbar />
+    </div>
+  );
 }
