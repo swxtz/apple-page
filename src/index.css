@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 @tailwind variants;
+
+@font-face {
+  font-family: "SF Pro Display Regular";
+  src: local("SFProDisplay"),
+  url("./fonts/SFProDisplay.ttf") format("truetype");
+}
+

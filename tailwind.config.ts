@@ -5,8 +5,12 @@ export default {
     "index.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sf: ["SF Pro Display Regular", "sans-serif"],
+      }
+    },
   },
   plugins: [],
-}
+};
 
