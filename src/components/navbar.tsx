@@ -43,7 +43,7 @@ const buttons: Buttons[] = [
 
 export function Navbar() {
   return (
-    <nav className="backdrop-blur-sm bg-black/80 py-3 px-10 flex flex-row items-center justify-between md:justify-center">
+    <nav className="backdrop-blur-sm fixed top-0 z-20 w-full bg-black/80 py-3 px-10 flex flex-row items-center justify-between md:justify-center">
       <a href="/">
         <img
           src={appleLogo}

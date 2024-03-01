@@ -1,9 +1,13 @@
 import { Navbar } from "./components/navbar";
+import { VisionPro } from "./components/vision-pro";
 
 export function App() {
   return (
-    <div className="">
-      <Navbar />
-    </div>
+    <main className="">
+      <div className="">
+        <Navbar />
+      </div>
+      <VisionPro />
+    </main>
   );
 }
