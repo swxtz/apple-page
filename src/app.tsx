@@ -2,7 +2,7 @@ import { Navbar } from "./components/navbar";
 
 export function App() {
   return (
-    <div>
+    <div className="">
       <Navbar />
     </div>
   );
