@@ -1,5 +1,5 @@
-import visionPro from "@/assets/home/hero_apple_vision_pro.jpg";
-import visionProLogo from "@/assets/home/hero_logo_apple_vision_pro.png";
+import visionPro from "@/assets/home/vision/hero_apple_vision_pro.jpg";
+import visionProLogo from "@/assets/home/vision/hero_logo_apple_vision_pro.png";
 import { HomeLinks } from "@/components/home-links";
 
 export function VisionPro() {
